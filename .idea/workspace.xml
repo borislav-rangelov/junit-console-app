@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42e868da-3b12-46a1-abc0-705a3bfdc965" name="Default Changelist" comment="" />
+    <list default="true" id="42e868da-3b12-46a1-abc0-705a3bfdc965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,10 +22,10 @@
     <SUITE FILE_PATH="coverage/junitapp$com_brangelov_junitapp_in_com_brangelov_junitapp_test.ic" NAME="com.brangelov.junitapp in com.brangelov.junitapp.test Coverage Results" MODIFIED="1552767882758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.brangelov.junitapp.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/junitapp$All_in_com_brangelov_junitapp_test__1_.ic" NAME="All in com.brangelov.junitapp.test (1) Coverage Results" MODIFIED="1552768740989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/junitapp$All_in_com_brangelov_junitapp_test__1_.ic" NAME="All in com.brangelov.junitapp.test (1) Coverage Results" MODIFIED="1552771167270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="28" />
+    <option name="myElementSize" value="24" />
   </component>
   <component name="DockManager">
     <window id="1">
@@ -176,8 +178,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/brangelov/junitapp/services/ReservationServiceImplTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="214" column="99" selection-start-line="214" selection-start-column="99" selection-end-line="214" selection-end-column="99" />
+            <state relative-caret-position="249">
+              <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -231,6 +233,9 @@
       <replace>com.brangelov.junitapp</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -276,6 +281,7 @@
     <option name="width" value="974" />
     <option name="height" value="592" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -287,6 +293,11 @@
             <path>
               <item name="junitapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="junitapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="junitapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junitapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junitapp" type="b2602c69:ProjectViewProjectNode" />
@@ -400,7 +411,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552770952937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552771211017" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -423,7 +435,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JUnitApp">
+  <component name="RunManager" selected="JUnit.All in com.brangelov.junitapp.test (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -467,6 +479,15 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="All in com.brangelov.junitapp.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.brangelov.junitapp.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in com.brangelov.junitapp.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.brangelov.junitapp.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -477,15 +498,6 @@
       </method>
     </configuration>
     <configuration name="All in com.brangelov.junitapp.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.brangelov.junitapp.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in com.brangelov.junitapp.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.brangelov.junitapp.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -539,18 +551,18 @@
     <list>
       <item itemvalue="Gradle.junitapp" />
       <item itemvalue="JUnit.ReservationServiceImplTests.validatesCorrectlyReservation" />
-      <item itemvalue="JUnit.All in com.brangelov.junitapp.test" />
       <item itemvalue="JUnit.All in com.brangelov.junitapp.test (2)" />
       <item itemvalue="JUnit.All in com.brangelov.junitapp.test (3)" />
       <item itemvalue="Application.JUnitApp" />
+      <item itemvalue="JUnit.All in com.brangelov.junitapp.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in com.brangelov.junitapp.test (1)" />
         <item itemvalue="Application.JUnitApp" />
         <item itemvalue="JUnit.All in com.brangelov.junitapp.test (3)" />
         <item itemvalue="JUnit.All in com.brangelov.junitapp.test (2)" />
         <item itemvalue="JUnit.ReservationServiceImplTests.validatesCorrectlyReservation" />
-        <item itemvalue="JUnit.All in com.brangelov.junitapp.test" />
       </list>
     </recent_temporary>
   </component>
@@ -565,14 +577,11 @@
       <option name="presentableId" value="Default" />
       <updated>1552155242890</updated>
       <workItem from="1552155246696" duration="11309000" />
-      <workItem from="1552748265439" duration="14457000" />
+      <workItem from="1552748265439" duration="14707000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReservationServiceImplTests_validatesCorrectlyReservation - 2019.03.16 at 23h 02m 34s.xml">
-      <configuration name="ReservationServiceImplTests.validatesCorrectlyReservation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReservationServiceImplTests_validatesCorrectlyReservation - 2019.03.16 at 23h 02m 47s.xml">
       <configuration name="ReservationServiceImplTests.validatesCorrectlyReservation" configurationId="JUnit" />
     </history-entry>
@@ -600,15 +609,18 @@
     <history-entry file="All_in_com_brangelov_junitapp_test_(3) - 2019.03.16 at 23h 11m 49s.xml">
       <configuration name="All in com.brangelov.junitapp.test (3)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_com_brangelov_junitapp_test_(3) - 2019.03.16 at 23h 15m 19s.xml">
+      <configuration name="All in com.brangelov.junitapp.test (3)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25766000" />
+    <option name="totallyTimeSpent" value="26016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-7" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30383795" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32356077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -617,7 +629,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953465" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41025642" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41025642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39981008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -630,7 +642,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info active="true" anchor="right" id="Coverage" sideWeight="0.50179213" side_tool="true" visible="true" weight="0.122068234" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50179213" side_tool="true" weight="0.122068234" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -931,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/brangelov/junitapp/services/ReservationServiceImplTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="214" column="99" selection-start-line="214" selection-start-column="99" selection-end-line="214" selection-end-column="99" />
+        <state relative-caret-position="249">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
